@@ -1,0 +1,4 @@
+streamlit
+pandas
+numpy
+topsis-neeraj-102317014-tiet
