@@ -1,51 +1,26 @@
-# TOPSIS-Python Package
+<img width="850" height="550" alt="image" src="https://github.com/user-attachments/assets/c8801a55-ad23-4957-b12c-cc72daaf9642" />
 
-**Author:** Neeraj  
+# Results
 
-**Roll Number:** 102317014
+<img width="836" height="208" alt="Screenshot 2026-02-17 044720" src="https://github.com/user-attachments/assets/399040e3-b4f9-420d-aa2c-a837e350b8b6" />
 
----
+# 💻 Python Package Usage
 
-## What is TOPSIS?
+Install the core engine via Pip:
+```bash
+pip install topsis-neeraj-102317014-tiet
+```
 
-**T**echnique for **O**rder of **P**reference by **S**imilarity to **I**deal **S**olution (TOPSIS) is a multi-criteria decision analysis method. It is based on the concept that the chosen alternative should have the shortest geometric distance from the positive ideal solution (PIS) and the longest geometric distance from the negative ideal solution (NIS).
+# 🛠️ Deployment Links
 
----
+Live Web App: https://topsis-web-service-mcdm.streamlit.app/
 
-## Installation
+PyPI Package: https://pypi.org/project/topsis-neeraj-102317014-tiet/1.0.3/
 
-You can install the package using pip:
+# 🏆 Features
 
-pip install Topsis-Neeraj-102317014
+Instant Ranking: Automatically generates Topsis Scores and final Ranks.
 
----
+Email Integration: The Web App automatically sends the result file to your inbox.
 
-## Example Usage
-
-topsis data.xlsx "1,1,1,2" "+,+,-,+" result.xlsx
-
----
-
-## Input File Format
-
-The input file must:
-
-Be a .xlsx file.
-
-Contain at least 3 columns.
-
-The first column should contain the object/alternative names (e.g.,M1,M2,M3).
-
-From the 2nd column onwards, all values must be numeric.
-
----
-
-## Output
-
-The output will be a excel file containing all the original data, plus two additional columns:
-
-Topsis Score: The calculated preference score.
-
-Rank: The final ranking of the alternatives.
-
----
+Robust Error Handling: Validates numeric data, column counts, and weight/impact alignment.
